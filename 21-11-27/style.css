@@ -1,0 +1,39 @@
+* {
+    margin: 0
+}
+
+p {
+    font-style: italic;
+}
+
+#container {
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid skyblue;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.accent {
+    padding: 5px;
+    border: 3px solid skyblue;
+}
+
+.bg {
+    background-color: yellow;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: skyblue !important;
+}
+
+p {
+    color: blue;
+}

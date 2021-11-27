@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap');
+#tiger{
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Nanum Pen Script';
+}
+
+#dog{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 궁서;
+}
+
+#horse{
+    font-size: 150%;
+    font-weight: lighter;
+    font-family: 'Jua';
+}
+
+#tiger2{
+    color: #FAA004;
+}
+
+#dog2 {
+    color: maroon;
+}
+
+#horse2 {
+    color: rgba(190, 230, 20, 0.5)
+}
