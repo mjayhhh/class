@@ -3,27 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>상품 구매</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap');
+        table, th, td {
+            border: 1px solid black;
+        }
+        .shadow {
+            color : red;
+            font-family: 'Nanum Pen Script';
+            font-size: 30px;
+            text-shadow: 1px 1px black;
+        }
+        .ft {
+            color : skyblue;
+            font-family: 'Jua';
+        }
+        #CPU {
+            color : red;
+            font-family: 'Jua';
+        }
+        #graphic {
+            color : blue;
+            font-family: 'Jua';
+        }
+        #upgrade {
+            color : #FFFF00;
+            font-family: 'Jua';
+            text-shadow: 2px 2px 1px black;
+        }
+        #black {
+            color : black;
+            font-family: 'Jua';
+        }
+        #Lime {
+            color : #00FF00;
+            font_family: 'Jua';
+        }
+    </style>
 </head>
 <body>
     <form>
-        <h2><b>게임용 컴퓨터</b></h2>
         <table>
             <thead>
                 <tr>
-                    <td><label><input type="image" src="img/computer.jpg" width = "300"></label></td>
-                    <td>
-                        고성능/전문가용 FHP09<br>
-                        CPU : 코어i5-10세대 10400F<br>
-                        그래픽 : 지포스 RTX 3070 advanced OC D6 8GB<br>
-                        메모리 : 삼성전자 DDR4 16G PC4-25600<br>
-                        사양 업그레이드 :<br>
-                        <input type="checkbox">지포스 RTX 3070 Ti Master D6X 8GB(+882,600)<br>
+                    <td class="shadow">게임용 컴퓨터</td>
+                    <td class="ft" rowspan="2">
+                        <span id="CPU"> 고성능/전문가용 FHP09 </span><br>
+                        <span id="graphic">CPU : 코어i5-10세대 10400F</span><br>
+                        <span id="graphic"> 그래픽 : 지포스 RTX 3070 advanced OC D6 8GB</span><br>
+                        <span id="graphic">메모리 : 삼성전자 DDR4 16G PC4-25600</span><br>
+                        <span id="upgrade"> 사양 업그레이드 :</span><br>
+                        <span id="Lime"> <input type="checkbox">지포스 RTX 3070 Ti Master D6X 8GB(+882,600)<br>
                         <input type="checkbox">인텔 코어i9-11세대 11900K(+490,400)<br>
                         <input type="checkbox">삼성전자 DDR4 64G PC4-25600(+238,780)<br>
-                        수량 : <label><input type="number">개</label>
+                        </span>
+                        <span id="black">수량 : <label><input type="number">개</span></label>
                     </td>
                 </tr>
-
+                <tr>
+                    <td><label><input type="image" src="img/computer.jpg" width = "300"></label></td>
+                </tr>
             </thead>
 
         </table>
